@@ -1,0 +1,18 @@
+$color--pink: #ffc2c9;
+$color--dark: #2b1719;
+
+body {
+  background-color: $color--pink;
+  h1 {
+    display: flex;
+    color: $color--dark;
+    font: {
+      family: auto;
+      size: 50px;
+    };
+    margin: {
+      left: 10px;
+      top: 10px;
+    };
+  }
+}
