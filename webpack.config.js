@@ -1,3 +1,4 @@
+// 플러그인 import. path는 Node.js에서 파일, 경로 작업할 때 필요로하는 전역 모듈이다.
 const path = require("path");
 const HtmlPlugin = require("html-webpack-plugin");
 const CopyPlugin = require("copy-webpack-plugin")
@@ -34,7 +35,7 @@ module.exports = {
     ]
   },
   
-  // 설치한 플러그인에 관한 내용.
+  // import한 플러그인에 대한 설정.
   plugins: [
     new HtmlPlugin({
       template: "./index.html"
